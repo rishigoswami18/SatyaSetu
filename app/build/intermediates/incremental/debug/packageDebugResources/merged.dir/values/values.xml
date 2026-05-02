@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#FF2E7D32</color>
+    <color name="dark_background">#FF0F0F1A</color>
+    <color name="dark_card">#FF252540</color>
+    <color name="dark_surface">#FF1A1A2E</color>
+    <color name="deep_blue">#FF1A237E</color>
+    <color name="light_blue">#FF5C6BC0</color>
+    <color name="light_green">#FF4CAF50</color>
+    <color name="medium_blue">#FF303F9F</color>
+    <color name="saffron_dark">#FFE85D26</color>
+    <color name="saffron_light">#FFFF8A5C</color>
+    <color name="saffron_primary">#FFFF6B35</color>
+    <color name="status_approved">#FF66BB6A</color>
+    <color name="status_pending">#FFFFA726</color>
+    <color name="status_rejected">#FFEF5350</color>
+    <color name="text_dark">#FF1A1A2E</color>
+    <color name="text_light">#FFB0B0C0</color>
+    <color name="text_white">#FFF5F5F5</color>
+    <string name="all_posts">सभी</string>
+    <string name="already_have_account">पहले से अकाउंट है? लॉगिन करें</string>
+    <string name="app_name">SochBadlo</string>
+    <string name="app_name_hindi">सोच बदलो</string>
+    <string name="app_tagline">सत्य की राह, ज्ञान का साथ</string>
+    <string name="apply_now">अभी आवेदन करें</string>
+    <string name="awareness">जागरूकता</string>
+    <string name="back">वापस</string>
+    <string name="benefits">लाभ</string>
+    <string name="cat_fake_baba">नकली बाबा/तांत्रिक</string>
+    <string name="cat_fake_medicine">नकली दवाई</string>
+    <string name="cat_fraud_scheme">धोखाधड़ी योजना</string>
+    <string name="cat_other">अन्य</string>
+    <string name="cat_superstition">अंधविश्वास</string>
+    <string name="category_digital_safety">डिजिटल सुरक्षा</string>
+    <string name="category_education">शिक्षा</string>
+    <string name="category_farming">खेती</string>
+    <string name="category_government">सरकारी योजनाएँ</string>
+    <string name="category_health">स्वास्थ्य</string>
+    <string name="category_science">विज्ञान</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="change_village">गाँव बदलें</string>
+    <string name="chat_disclaimer">यह AI सहायक है। गंभीर समस्या के लिए विशेषज्ञ से मिलें।</string>
+    <string name="chat_placeholder">अपना सवाल पूछें...</string>
+    <string name="create_account">अकाउंट बनाएँ</string>
+    <string name="disclaimer">यह प्लेटफॉर्म सिर्फ जानकारी और शिक्षा के लिए है। किसी भी गंभीर स्वास्थ्य या कानूनी समस्या के लिए कृपया विशेषज्ञ से संपर्क करें।</string>
+    <string name="district">ज़िला</string>
+    <string name="eligibility">पात्रता</string>
+    <string name="email">ईमेल</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="error">कुछ गड़बड़ हो गई</string>
+    <string name="firebase_database_url" translatable="false">https://sochbadlo-7c117-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1075815167586</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcOI-78CI7ab2odJseK7LJZyQhLwaZMjE</string>
+    <string name="google_app_id" translatable="false">1:1075815167586:android:e85eb8e39644408504833b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcOI-78CI7ab2odJseK7LJZyQhLwaZMjE</string>
+    <string name="google_storage_bucket" translatable="false">sochbadlo-7c117.firebasestorage.app</string>
+    <string name="govt_schemes">सरकारी योजनाएँ</string>
+    <string name="hindi">हिंदी</string>
+    <string name="how_to_apply">आवेदन कैसे करें</string>
+    <string name="issue">समस्या</string>
+    <string name="language_settings">भाषा</string>
+    <string name="like">पसंद</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="login">लॉगिन करें</string>
+    <string name="mappls_olf_data" translatable="false">T51nOv/XOgYneBv5pNlix0Tv/QxwI14BFC1PJXlvsVt39VYd7RZFrTM1M9vYqhfv0Dgwo9WH6f7xHNFGu4YJ2h1LTfnzzoZ4QRs2XMJQgIZ4HdNfNLEhIU/4yatANEEQP6YB5Ah1ERGEEkOHz+WQnx9AiHozOlkpg5LSrlnPc1mT46DPHAKX4IkzSVUHnDIJoU6ZdLRIpNXZdJZDA0NW87BctN0hYro53W7Sdr4dK7R6zemTLHudkjigPPuV59SscDsWYAzDE9QnCW0l6ALTfv1qnBHgw1skH8uHbnB2e1MxOIzpTrhacAm/RN23769ekav1zUAa/lAIj2qUNvj4SA==</string>
+    <string name="my_village">मेरा गाँव</string>
+    <string name="name">पूरा नाम</string>
+    <string name="nav_chat">सहायक</string>
+    <string name="nav_feed">वीडियो</string>
+    <string name="nav_learn">सीखें</string>
+    <string name="nav_myths">सच या गलत</string>
+    <string name="nav_schemes">योजनाएँ</string>
+    <string name="nav_tracker">ट्रैकर</string>
+    <string name="nav_village">मेरा गाँव</string>
+    <string name="news">समाचार</string>
+    <string name="no_data">अभी कोई डेटा नहीं है</string>
+    <string name="no_results">कोई परिणाम नहीं मिला</string>
+    <string name="password">पासवर्ड</string>
+    <string name="project_id" translatable="false">sochbadlo-7c117</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="report_anonymous">गुमनाम रूप से रिपोर्ट करें</string>
+    <string name="report_check_pending">जाँच की जाएगी</string>
+    <string name="report_desc_label">विवरण * (क्या हुआ, विस्तार से बताएँ)</string>
+    <string name="report_disclaimer">सभी रिपोर्ट पहले जाँच के लिए जाती हैं। कोई रिपोर्ट बिना जाँच के प्रकाशित नहीं होती।</string>
+    <string name="report_location_label">स्थान (गाँव/शहर)</string>
+    <string name="report_my_reports">मेरी रिपोर्ट</string>
+    <string name="report_new_report">नई रिपोर्ट</string>
+    <string name="report_no_reports">आपने अभी तक कोई रिपोर्ट नहीं की</string>
+    <string name="report_select_cat">श्रेणी चुनें:</string>
+    <string name="report_submit">रिपोर्ट जमा करें</string>
+    <string name="report_submit_btn">रिपोर्ट जमा करें</string>
+    <string name="report_success">रिपोर्ट सफलतापूर्वक जमा हो गई!</string>
+    <string name="report_title">रिपोर्ट करें</string>
+    <string name="report_title_label">शीर्षक *</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="save">सेव</string>
+    <string name="search_posts">पोस्ट खोजें...</string>
+    <string name="seed_data">सैंपल डेटा लोड करें</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="share">शेयर</string>
+    <string name="state">राज्य</string>
+    <string name="status_approved">स्वीकृत</string>
+    <string name="status_pending">समीक्षा बाकी</string>
+    <string name="status_rejected">अस्वीकृत</string>
+    <string name="status_under_review">समीक्षा में</string>
+    <string name="trending">ट्रेंडिंग</string>
+    <string name="village">गाँव / शहर</string>
+    <style name="Theme.SatyaSetu" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_surface</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+    </style>
+</resources>

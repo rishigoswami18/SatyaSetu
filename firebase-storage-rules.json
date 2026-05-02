@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "videos": {
+      "allow read": "request.auth != null",
+      "allow write": "request.auth != null && request.auth.token.admin == true"
+    },
+    "report_images": {
+      "allow read": "request.auth != null",
+      "allow write": "request.auth != null && request.resource.size < 10 * 1024 * 1024 && request.resource.contentType.matches('image/.*')"
+    },
+    "report_videos": {
+      "allow read": "request.auth != null",
+      "allow write": "request.auth != null && request.resource.size < 50 * 1024 * 1024 && request.resource.contentType.matches('video/.*')"
+    },
+    "profile_images": {
+      "$uid": {
+        "allow read": "request.auth != null",
+        "allow write": "request.auth != null && request.auth.uid == uid && request.resource.size < 5 * 1024 * 1024"
+      }
+    },
+    "post_media": {
+      "allow read": "request.auth != null",
+      "allow write": "request.auth != null && request.resource.size < 50 * 1024 * 1024"
+    }
+  }
+}

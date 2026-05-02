@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://sochbadlo-7c117-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1075815167586</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcOI-78CI7ab2odJseK7LJZyQhLwaZMjE</string>
+    <string name="google_app_id" translatable="false">1:1075815167586:android:e85eb8e39644408504833b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcOI-78CI7ab2odJseK7LJZyQhLwaZMjE</string>
+    <string name="google_storage_bucket" translatable="false">sochbadlo-7c117.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sochbadlo-7c117</string>
+</resources>

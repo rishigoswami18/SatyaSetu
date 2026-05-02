@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.satyasetu.app-debug-85:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.satyasetu.app-main-87:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.satyasetu.app-debug-85:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.satyasetu.app-main-87:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.satyasetu.app-debug-85:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.satyasetu.app-main-87:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

@@ -1,0 +1,63 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    },
+    "videos": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() == 'admin'",
+      "$videoId": {
+        "likes": {
+          ".write": "auth != null"
+        },
+        "views": {
+          ".write": "auth != null"
+        }
+      }
+    },
+    "pending_reports": {
+      ".read": "auth != null && (root.child('users').child(auth.uid).child('role').val() == 'admin' || data.child(auth.uid).exists())",
+      "$reportId": {
+        ".read": "auth != null && (data.child('userId').val() == auth.uid || root.child('users').child(auth.uid).child('role').val() == 'admin')",
+        ".write": "auth != null"
+      }
+    },
+    "approved_reports": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() == 'admin'"
+    },
+    "myths": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() == 'admin'",
+      "$mythId": {
+        "likes": {
+          ".write": "auth != null"
+        }
+      }
+    },
+    "lessons": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() == 'admin'"
+    },
+    "development": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() == 'admin'"
+    },
+    "villages": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "posts": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$postId": {
+        "likes": {
+          ".write": "auth != null"
+        }
+      }
+    }
+  }
+}
