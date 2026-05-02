@@ -1,16 +1,57 @@
-# SatyaSetu .gitignore
+# --- Android ---
 *.iml
 .gradle
 /local.properties
 /.idea
 .DS_Store
 /build
+/*/build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
 google-services.json
+app/google-services.json
 *.apk
 *.aab
 *.jks
 *.keystore
+app/*.a.conf
+app/*.a.olf
+
+# --- Web (Next.js) ---
+node_modules/
+.next/
+/web/node_modules/
+/web/.next/
+/web/out/
+/web/build/
+/web/.vercel
+/web/*.pem
+/web/npm-debug.log*
+/web/yarn-debug.log*
+/web/yarn-error.log*
+/web/.pnpm-debug.log*
+/web/.env*
+/web/.env.local
+/web/.env.development.local
+/web/.env.test.local
+/web/.env.production.local
+/web/*.tsbuildinfo
+/web/next-env.d.ts
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+.history/
+
+# --- Misc ---
+*.log
+temp/
+bin/
+obj/
+.DS_Store
+Thumbs.db
+desktop.ini
